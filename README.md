@@ -288,6 +288,10 @@ Allow: /
 | [awesome-generative-engine-optimization](https://github.com/amplifying-ai/awesome-generative-engine-optimization) | 英文 GEO 资源指南（289 stars） |
 | [Backlinko GEO Guide](https://backlinko.com/geo) | Brian Dean 的 GEO 指南 |
 | [Search Engine Land - What is GEO](https://searchengineland.com/what-is-geo-generative-engine-optimization) | 定义和概述 |
+| [Mastering GEO in 2026 (Search Engine Land)](https://searchengineland.com/mastering-generative-engine-optimization-in-2026-full-guide-469142) | 完整的 GEO 实操指南（2026 版） |
+| [Kevin Indig - Growth Memo](https://www.growth-memo.com/) | 数据驱动的 GEO / AI 搜索研究博客（22k+ 订阅，曾分析 1.2M ChatGPT 回答） |
+| [Webflow - How AI is reshaping search](https://webflow.com/blog/ai-reshaping-search) | AEO 与 AI 搜索的基础介绍 |
+| [Can You Fake Expertise in AI Search? (Authoritas)](https://www.authoritas.com/blog/can-you-fake-it-til-you-make-it-in-the-age-of-ai-search) | 测试 9 个 AI 模型的专家引用偏好研究 |
 
 ---
 
