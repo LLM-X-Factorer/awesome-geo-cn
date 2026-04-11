@@ -220,6 +220,7 @@ Allow: /
 | [aircodelabs/llms-txt-generator](https://github.com/aircodelabs/llms-txt-generator) | AI 驱动的 llms.txt / llms-full.txt 生成器，支持 MCP 集成 Cursor 与 Claude Desktop |
 | [apify/actor-llmstxt-generator](https://github.com/apify/actor-llmstxt-generator) | Apify Actor 形式的 llms.txt 生成器，基于 Website Content Crawler |
 | [Blimeo/llms-txt-generator](https://github.com/Blimeo/llms-txt-generator) | Web 应用 + Worker 系统，自动监控静态站点变化并生成 llms.txt |
+| [nowork-studio/toprank](https://github.com/nowork-studio/toprank) | 面向 Claude Code 的开源 SEO / Google Ads 插件，提供 Search Console 分析、内容优化、CMS 设置与 GEO 工作流 |
 | [ngmisl/llmstxt](https://github.com/ngmisl/llmstxt) | Python 工具，将代码仓库压缩为 LLM 友好的单一 .txt 文件 |
 | [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 开源 RAG 引擎，基于深度文档理解（GitHub 70k+ stars） |
 
