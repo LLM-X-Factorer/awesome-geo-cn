@@ -317,6 +317,7 @@ robots.txt 之上正在形成的机器可读 AI 用途 / 许可声明机制。
 | [SEO + GEO 入门课程](https://factorer.app/) | 中文 | 10 周 29 课，基于 KDD 2024 论文，覆盖 SEO + GEO + 中文 AI 平台策略。前 3 周免费 |
 | [AI SEO: Mastering GEO](https://www.coursera.org/learn/seo-mastering-generative-engine-optimization-geo) | 英文 | Coursera 上的 GEO 课程 |
 | [万智匯 SEOxGEO 入门课](https://geniushub.cc/geo/geo-course-recommendation/) | 繁体中文 | 61 单元视频课程 |
+| [GEO 效果测量实操指南](https://me.itheheda.online/articles/how-to-measure-geo-ai-citations) | 中文 | 将回答准确性、引用支持、访问和有效咨询分开记录；说明证据边界（作者自荐） |
 
 ---
 
