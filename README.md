@@ -66,6 +66,20 @@ GEO 关注内容在 AI 生成回答中被引用的情况；传统 SEO 关注内�
 | [Don't Measure Once: Measuring Visibility in AI Search](https://arxiv.org/abs/2604.07585) | 圣加仑大学 2026 | 主张可见度应作为分布而非单点测量；4 引擎 45 天实测，相邻两日被引信源集合重叠仅 34–42% |
 | [Structural Feature Engineering for GEO（GEO-SFE）](https://arxiv.org/abs/2603.29979) | 东京大学等 2026 | 纯结构（非语义）三层级特征工程使引用率相对提升 17.3%（p<0.001，n=200），覆盖 6 个生成引擎 |
 | [GEO: A VLM and Agent Framework for Pinterest Acquisition Growth](https://arxiv.org/abs/2602.02961) | Pinterest 2026 | 生产级多模态 GEO 框架，部署于数十亿图片 / 数千万合集，带来 20% 自然流量增长 |
+| [SAGEO Arena: Evaluating Search-Augmented GEO](https://arxiv.org/abs/2602.12187) | KDD 2026 | 含检索与重排的端到端生成式搜索环境：现有 GEO 方法在真实条件下大多不实用，且常降低检索与重排表现；结构化信息（如 Schema）可缓解 |
+| [How Generative AI Disrupts Search](https://arxiv.org/abs/2604.27790) | SIGIR 2026 | 11,500 条真实查询：51.5% 触发 AI Overview；Google 搜索 / AIO / Gemini 信源平均 Jaccard <0.2；屏蔽 Google AI 爬虫的站点更少被 AIO 检索 |
+| [CHASE: How Content Ecosystems Are Reshaped When Ranking Is the Only Target](https://arxiv.org/abs/2608.30466) | COLM 2026 | 模拟内容创作者反复针对 LLM 排序信号优化文档时，内容生态随之变化（同质化）的受控框架 |
+| [Position: GEO Creates Underexamined Risks](https://arxiv.org/abs/2606.12439) | ICML 2026 Position Track | 指出 GEO 的三类风险：影响力集中、未披露的商业影响、学界与产业评测之间的盲区 |
+| [A Critical Survey of GEO (2023–2026)](https://arxiv.org/abs/2607.14035) | 2026 | 45 项研究的批判性综述：主题相关性与上下文位置是最可复现的因素；未发现在跨平台、纵向上稳定提升自然可发现性的技术 |
+| [GEO-Flag: Detecting and Measuring GEO-Optimized Web Content](https://arxiv.org/abs/2608.16824) | 2026 | GEO 内容检测基准与方法；在 10,095 个真实检索页面中估计 GEO 优化内容占 8.90%，2026 年修改的页面中占 16.36% |
+
+### 中文 AI 搜索实证研究
+
+| 论文 | 来源 | 核心发现 |
+|------|------|---------|
+| [What Do Chinese-Language Generative Search Engines Cite and Surface?](https://arxiv.org/abs/2607.15771) | 2026 | 4 个主流中文平台 Web + App 共 8 个入口、16 万条引用记录：品牌从引用池进入答案的比例 8.3%；被引页面半衰期约 39 天（高时效查询）/ 68 天（低时效）；同平台 App 与 Web 信源集合存在系统性差异 |
+| [Auditing Source Exposure in Baidu and Google AI Search](https://arxiv.org/abs/2609.24407) | WAC @ EMNLP 2026 | 百度与 Google 的 AI 概览跨语言审计：各平台-语言组合在概览触发率与可见信源上差异显著，信源域名重叠度低 |
+| [Who Anchors AI Overviews in Health? Baidu, Google, and the Geography of Authority](https://arxiv.org/abs/2609.06798) | 2026 | 12 国 4 语言 1,920 条健康查询：百度与 Google 的 AI 概览均倾向引向自家平台；改用当地官方语言提问，本地信源占比提升约 3.5–13.5 倍 |
 
 ### 引用机制与对抗性研究
 
@@ -79,6 +93,11 @@ GEO 关注内容在 AI 生成回答中被引用的情况；传统 SEO 关注内�
 | [Dynamics of Adversarial Attacks on LLM-Based Search](https://arxiv.org/pdf/2501.00745) | ICML 2026 Workshop | 将 LLM 搜索中内容发布者间的攻击行为建模为无限重复囚徒困境 |
 | [GEO-Bench: Benchmarking Ranking Manipulation in GEO](https://arxiv.org/abs/2605.29107) | 2026 | GEO 攻防统一基准：黑盒内容改写在排名提升上可匹配 / 超过白盒梯度攻击，且文本更流畅、可同时规避关键词与困惑度检测 |
 | [FACTUM: Mechanistic Detection of Citation Hallucination in Long-Form RAG](https://arxiv.org/abs/2601.05866) | ECIR 2026 | 将"引用幻觉"建模为注意力与前馈通路的协调失败，4 种机制性打分法检测虚假引用，AUC 较 SOTA 最高 +37.5% |
+| [Counter-GEO-Bench](https://arxiv.org/abs/2609.02316) | EMNLP 2026 | 针对信息扭曲型 GEO 的防御基准：3 种现成防护（Granite Guardian / Llama Guard 3 / NeMo）攻击成功率相对降幅最多 5.7% |
+| [One Polluted Page Is Enough（FORGE）](https://arxiv.org/abs/2606.13610) | EMNLP 2026 Findings | 12 个 LLM 推荐系统均受网页污染影响：单个污染页面误荐率最高 27%，前 3 条全部替换时达 73.8%；推理模式不能缓解 |
+| [SafeGEO: GEO Risks in Recommendation Agents](https://arxiv.org/abs/2606.28356)（[GitHub](https://github.com/QianfengWen/SafeGEO)） | EMNLP 2026 | 22 种 GEO 攻击变体 × 600 个推荐案例：缺陷产品进入推荐集的比例最多提升 83.2 个百分点 |
+| [Evaluating Deep-Search Agents under Hierarchical Web Evidence Poisoning（HAE-GEO）](https://arxiv.org/abs/2609.06027) | 2026 | 追踪深度搜索智能体从接触投毒证据到识别、修正的完整轨迹的基准 |
+| [Assessing Attack Surfaces in Generative Search Engines through Publisher Attributes](https://arxiv.org/abs/2608.15814) | CIKM 2026 | 政治领域生成式搜索引擎的投毒攻击面分析，从引用选择与个性化两个角度 |
 
 ### 关键量化数据（来自 KDD 2024 论文）
 
@@ -194,6 +213,8 @@ GEO 关注内容在 AI 生成回答中被引用的情况；传统 SEO 关注内�
 - [2025 年生成式人工智能服务已备案信息公告](https://www.cac.gov.cn/2026-01/09/c_1769688009588554.htm) — 截至 2025-12-31 累计 748 款服务备案、435 款应用登记（网信办）
 - [生成式人工智能服务已备案信息公告（2026 年 7–8 月）](https://www.cac.gov.cn/2026-09/14/c_1791136833136332.htm) — 截至 2026-08-31 累计 1112 款服务备案、731 款应用登记（网信办）
 - [人工智能拟人化互动服务管理暂行办法](https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm) — 五部门 2026-04-10 发布、2026-07-15 施行，规范持续性情感互动类 AI 服务
+- [人工智能生成合成内容标识办法](https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm) — 四部门 2025-03-14 印发、2025-09-01 施行，规定 AI 生成合成内容的显式 / 隐式标识
+- [「清朗·整治AI应用乱象」专项行动](https://www.cac.gov.cn/2026-04/30/c_1779289298718765.htm) — 中央网信办 2026-04-30 部署；整治问题中列明"使用 GEO（生成式搜索引擎优化）技术恶意营销等方式实施 AI 数据投毒"及"对引用信源缺乏交叉验证和风险提示机制，未标注引用信息链接"（[第一阶段](https://www.news.cn/politics/20260706/4ce1356eb1b34e878c3fa1e2d9e5da1f/c.html) / [第二阶段](https://www.cac.gov.cn/2026-09/02/c_1790099041364574.htm)工作通报）
 
 ### 独立内容平台
 
@@ -224,6 +245,7 @@ GEO 关注内容在 AI 生成回答中被引用的情况；传统 SEO 关注内�
 
 - [llms.txt 官方规范](https://llmstxt.org/)
 - [thedaviddias/llms-txt-hub](https://github.com/thedaviddias/llms-txt-hub) — llms.txt 采用站点目录与示例库，附 llmstxt-cli
+- [Google：Optimizing for Generative AI Features on Google Search](https://developers.google.com/search/docs/fundamentals/ai-optimization-guide) — Google 搜索官方 AI 功能优化指南，写明 Google 搜索不需要 llms.txt 等额外 AI 文本文件，并介绍 Search Console 生成式 AI 效果报告
 
 ### robots.txt AI 爬虫配置
 
@@ -248,6 +270,9 @@ Allow: /
 - [Perplexity 爬虫文档](https://docs.perplexity.ai/docs/resources/perplexity-crawlers) — PerplexityBot（搜索索引）/ Perplexity-User
 - [Amazon 爬虫文档](https://developer.amazon.com/amazonbot) — Amazonbot / Amzn-SearchBot（Alexa、Rufus）/ Amzn-User
 - [Applebot 与 Applebot-Extended](https://support.apple.com/en-us/119829) — 可在 robots.txt 中退出 Apple 基础模型训练
+- [Google 常用爬虫文档](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers) — 含 Google-Extended（控制 Gemini 训练与 grounding，无独立 User-Agent，不影响 Google 搜索）
+- [百度 Baiduspider 说明](https://help.baidu.com/question?prod_en=master&class=Baiduspider) — 百度搜索爬虫官方 FAQ（百度未公布独立的 AI 训练退出 token）
+- [华为 PetalBot 说明](https://webmaster.petalsearch.com/site/petalbot) — Petal 搜索爬虫官方说明
 
 ### 内容访问与许可标准
 
@@ -282,6 +307,7 @@ robots.txt 之上正在形成的机器可读 AI 用途 / 许可声明机制。
 | [Ahrefs Brand Radar](https://ahrefs.com/brand-radar) | 追踪 ChatGPT / Perplexity / Gemini / Copilot / AI Overviews / AI Mode 中的品牌提及与引用 | 付费 |
 | [Semrush AI Visibility Toolkit](https://www.semrush.com/kb/1493-ai-visibility-toolkit) | AI 搜索可见度分析（Semrush 已于 2026-04 被 Adobe 收购） | 付费 |
 | [Profound](https://www.tryprofound.com/) | AI 搜索引用监测 | 付费 |
+| [新榜智汇 Geowise](https://geo.newrank.cn/) | 中文 AI 搜索可见度与信源监测，覆盖豆包 / 元宝 / DeepSeek / 千问等 | 付费 |
 
 ### 开源工具
 
@@ -307,6 +333,11 @@ robots.txt 之上正在形成的机器可读 AI 用途 / 许可声明机制。
 | [anyin-ai/aperture](https://github.com/anyin-ai/aperture) | 自托管 AI 可见性监测（BYOK），追踪 ChatGPT / Perplexity 中的品牌呈现，含竞品基准与引用追踪 |
 | [IJONIS/geo-lint](https://github.com/IJONIS/geo-lint) | GEO/SEO 内容 linter，按 97 条规则扫描 Markdown/MDX 并输出修复建议，提供 `npx geo-lint` CLI |
 | [zilisrikle/geo-audit-skill](https://github.com/zilisrikle/geo-audit-skill) | 面向 Claude Code 的多 agent GEO 审计 skill，检测 15 个 AI 爬虫 + 六维可引用性评分（非商用协议） |
+| [yaojingang/GEORank](https://github.com/yaojingang/GEORank) | 开源 GEO 诊断平台：可见性诊断、问答、拓词与结构化工具，支持私有化部署（Apache 2.0） |
+| [HeiGeAi/HeiGe-GEO-SEO](https://github.com/HeiGeAi/HeiGe-GEO-SEO) | 面向豆包 / 千问 / DeepSeek / 文心 / 元宝的 GEO + SEO 内容优化系统，兼容 Claude Code / Codex（MIT） |
+| [limelit-co/open](https://github.com/limelit-co/open) | 自托管 AI 可见性追踪（BYOK），单 Go 二进制 + SQLite，覆盖 ChatGPT / Claude / Perplexity / Gemini / AIO（Apache 2.0） |
+| [leopard627/fire-your-seo-agency](https://github.com/leopard627/fire-your-seo-agency) | SEO / AEO / GEO / LLMO 审计与优化 Claude Code skill，含韩国 Naver 支持（MIT） |
+| [OranAi-Ltd/orangeo-ai-visibility-skill](https://github.com/OranAi-Ltd/orangeo-ai-visibility-skill) | AI 可见性准备度检查 skill：robots.txt / llms.txt / Schema / 引用信号 / 竞品差距（MIT） |
 
 ### 内容生成
 
@@ -363,6 +394,7 @@ robots.txt 之上正在形成的机器可读 AI 用途 / 许可声明机制。
 | [QuestMobile AI 平台采信逻辑与信源偏好研究](https://news.qq.com/rain/a/20260526A03HGO00) | QuestMobile 2026/05 | 按行业拆解豆包 / 千问 / DeepSeek 信源结构（旅游"目的地发现类"携程引用率 58.3% 居首） |
 | [QuestMobile 2026 上半年 AI 旅游应用趋势洞察](https://news.ifeng.com/c/8sswh42rgQI) | QuestMobile 2026/05 | 携程在旅游问答整体引用率豆包 82.6% / 千问 75.9% / DeepSeek 64%；66.2% 用户仍回传统 App 二次核实 |
 | [SuperCLUE 中文大模型基准测评](https://www.superclueai.com/) | SuperCLUE | 中文通用大模型综合基准，按月发布榜单 + 年度报告（区别于 SuperCLUE-AISearch 搜索专项） |
+| [消费决策场景 AI 搜索洞察——2026 年重点行业 GEO 差异化策略研究报告](https://report.iresearch.cn/report/202608/4849.shtml) | 艾瑞咨询 2026/08 | 消费决策中的 AI 搜索行为，B2C / B2B 细分行业 GEO 策略与案例 |
 
 ### 英文评测与研究报告
 
@@ -381,6 +413,10 @@ robots.txt 之上正在形成的机器可读 AI 用途 / 许可声明机制。
 | [Top Domains Cited by AI Search（3000 万来源）](https://peec.ai/blog/top-domains-cited-by-ai-search-analysis-based-on-30m-sources) | Peec AI 2026/03 | 五平台域名引用偏好：整体 Top 为 Reddit / YouTube / LinkedIn / Wikipedia / Forbes |
 | [The Top 100 Gen AI Consumer Apps（6th）](https://a16z.com/100-gen-ai-apps-6/) | a16z 2026/03 | 网页端 ChatGPT 流量为第二名 Gemini 的 2.7 倍，移动端 MAU 2.5 倍；ChatGPT 周活达 9 亿 |
 | [AI Traffic Grows but Retail Sites Lag in AI Search Visibility（2026 Q1）](https://business.adobe.com/blog/ai-traffic-surge-retail-sites-not-machine-readable) | Adobe Analytics 2026/04 | 2026 Q1 美国零售站点 AI 来源流量同比 +393%；2026/03 AI 流量转化率较非 AI 高 42% |
+| [How Query Language Reshapes AI Citations](https://www.tryprofound.com/blog/how-query-language-reshapes-ai-citations) | Profound 2026 | 32.5 亿条 AI 引用、7 个模型、14 个国家：按查询语言对比信源类型分布差异 |
+| [Social Media AI Citations Study 2026](https://higoodie.com/blog/social-media-ai-citations-study-2026/) | Goodie 2026/09 | 2026 年 1–8 月社交媒体在 AI 搜索引用中的占比由 4.9% 升至 7.2% |
+| [Q3 2026 AI Citation Trends Report](https://tinuiti.com/research-insights/research/ai-citation-trends-report/) | Tinuiti 2026 | 季度 AI 引用趋势报告 |
+| [2026 Generative AI Landscape Report](https://www.similarweb.com/corp/reports/2026-generative-ai-landscape/) | Similarweb 2026 | 生成式 AI 平台流量、引荐与市场格局年度报告 |
 
 ---
 
