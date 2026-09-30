@@ -157,7 +157,7 @@ GEO 关注内容在 AI 生成回答中被引用的情况；传统 SEO 关注内�
 
 **大模型**：腾讯混元大模型（Tencent HY，备案号 网信算备440305295988701230071号）
 
-**生态构成**：腾讯元宝（C 端 AI 助手）+ 微信公众号 + 视频号 + 微信搜一搜 + QQ 浏览器
+**生态构成**：腾讯元宝（C 端 AI 助手）+ [ima](https://ima.qq.com/)（腾讯 AI 知识管家）+ 微信公众号 + 视频号 + 微信搜一搜 + QQ 浏览器
 
 **官方资源**：
 
@@ -182,7 +182,7 @@ GEO 关注内容在 AI 生成回答中被引用的情况；传统 SEO 关注内�
 
 **大模型**：通义千问（Qwen）系列
 
-**生态构成**：千问 App（C 端超级入口，2025 年 11 月上线）+ 夸克（AI 搜索入口）+ UC 浏览器 + 淘宝 AI
+**生态构成**：千问 App（C 端超级入口，2025 年 11 月上线）+ [夸克](https://www.quark.cn/)（AI 搜索入口）+ UC 浏览器 + 淘宝 AI
 
 **官方资源**：
 
@@ -247,13 +247,13 @@ GEO 关注内容在 AI 生成回答中被引用的情况；传统 SEO 关注内�
 
 ### 独立内容平台
 
-不属于四大大厂、但被所有中文 AI 引擎广泛引用的高质量内容社区：
+不属于四大厂商生态的中文内容社区：
 
 | 平台 | 类型 | 备注 |
 |------|------|------|
-| [知乎](https://www.zhihu.com/) | 问答社区 | 中文 AI 引擎广泛引用，引用率数据见 [行业数据](#行业数据) |
-| [小红书](https://www.xiaohongshu.com/) | 图文 + 短视频 | 内容被百度索引后可间接影响百度系 AI |
-| [B 站](https://www.bilibili.com/) | 视频 + 专栏 | 字幕可被 AI 索引 |
+| [知乎](https://www.zhihu.com/) | 问答社区 | AI 搜索产品 [知乎直答](https://zhida.zhihu.com/)；[robots.txt](https://www.zhihu.com/robots.txt) 对 Google-Extended 及未列名爬虫全站禁止，放行 Googlebot / bingbot / Baiduspider / Sogou 等搜索爬虫；引用率数据见 [行业数据](#行业数据) |
+| [小红书](https://www.xiaohongshu.com/) | 图文 + 短视频 | AI 搜索产品 [点点](https://www.xiaohongshu.com/ai_chat)；[robots.txt](https://www.xiaohongshu.com/robots.txt) 对 Googlebot 及未列名爬虫全站禁止，Baiduspider / bingbot / 360Spider / Sogou / YisouSpider 仅可抓取首页、/explore、sitemap 等路径 |
+| [B 站](https://www.bilibili.com/) | 视频 + 专栏 | [robots.txt](https://www.bilibili.com/robots.txt) 仅禁止 /medialist/detail/ 与 /index.html |
 
 **平台规则**：
 
@@ -269,8 +269,14 @@ GEO 关注内容在 AI 生成回答中被引用的情况；传统 SEO 关注内�
 
 | 产品 | 公司 | 备注 |
 |------|------|------|
-| [Kimi](https://www.kimi.com/) | 月之暗面 | 长上下文大模型，K 系列模型开源（[Kimi K3](https://www.news.cn/tech/20260717/01c04372f89a46e480206e1da2fb8e8c/c.html)，2026-07） |
-| [DeepSeek](https://www.deepseek.com/) | 深度求索 | 开源大模型（V / R 系列；[V4 预览版](https://news.sciencenet.cn/htmlnews/2026/4/563641.shtm)，2026-04） |
+| [Kimi](https://www.kimi.com/) | 月之暗面 | 长上下文大模型，K 系列模型开源（[Kimi K3](https://www.news.cn/tech/20260717/01c04372f89a46e480206e1da2fb8e8c/c.html)，2026-07）；[开放平台](https://platform.kimi.com/)原 platform.moonshot.cn |
+| [DeepSeek](https://www.deepseek.com/) | 深度求索 | 开源大模型（V / R 系列；[V4 预览版](https://news.sciencenet.cn/htmlnews/2026/4/563641.shtm)，2026-04）；[算法备案公示](https://cdn.deepseek.com/policies/zh-CN/model-algorithm-disclosure.html)：网信算备110108970550101240011号、网信算备330105747635301240017号 |
+| [秘塔 AI 搜索](https://metaso.cn/) | 上海秘塔网络科技 | AI 搜索产品，提供搜索 API |
+| [纳米 AI](https://www.n.cn/) | 360 | 原 360 AI 搜索 / 纳米 AI 搜索 |
+| [智谱清言](https://chatglm.cn/) | 智谱 | 基于 GLM 系列大模型，[开放平台](https://www.bigmodel.cn/)提供联网搜索 API |
+| [天工](https://www.tiangong.cn/) | 昆仑万维 | 现定位为 AI 办公智能体 |
+| [阶跃 AI](https://chat.stepfun.com/) | 阶跃星辰 | 原"跃问"；[算法备案公示](https://chat.stepfun.com/legal/registration)：网信算备310104654638201240011号、网信算备310104654638201240037号 |
+| [MiniMax Agent](https://agent.minimax.cn/) | MiniMax | 原海螺 AI 对话产品 |
 
 ---
 
@@ -310,6 +316,19 @@ Allow: /
 - [Google 常用爬虫文档](https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers) — 含 Google-Extended（控制 Gemini 训练与 grounding，无独立 User-Agent，不影响 Google 搜索）
 - [百度 Baiduspider 说明](https://help.baidu.com/question?prod_en=master&class=Baiduspider) — 百度搜索爬虫官方 FAQ（百度未公布独立的 AI 训练退出 token）
 - [华为 PetalBot 说明](https://webmaster.petalsearch.com/site/petalbot) — Petal 搜索爬虫官方说明
+
+### 中文 AI 搜索 API
+
+中文大模型厂商与搜索服务商面向开发者提供的联网搜索接口文档（返回字段与信源说明）。
+
+- [豆包搜索产品简介](https://www.volcengine.com/docs/87772/2272949) — 火山引擎面向大模型的联网搜索 API，返回网页权威度、发布时间等字段（原"联网搜索"）
+- [百度搜索 API（千帆）](https://cloud.baidu.com/doc/qianfan-api/s/Wmbq4z7e5) — 返回 references 引用字段，支持按站点、时间过滤
+- [Kimi 联网搜索最佳实践](https://platform.kimi.com/docs/guide/best-practices-for-web-search) — Search / Search Pro / Fetch 接口，返回结果含 `authority` 来源权威性字段
+- [智谱联网搜索](https://docs.bigmodel.cn/cn/guide/tools/web-search) — Web Search API / Search Agent，文档称整合智谱自研引擎及搜狗、夸克
+- [秘塔搜索 API](https://metaso.cn/search-api/playground) — 搜索、网页读取、问答接口
+- [阶跃星辰网页搜索 API](https://platform.stepfun.com/docs/zh/api-reference/search/search) — 支持按 programming / research / gov / business 领域检索
+- [360 智脑 web 搜索（360 智搜）](https://ai.360.com/docs/77655138f0) — 360 智脑开放平台搜索接口
+- [博查 AI 开放平台](https://open.bochaai.com/) — Web Search API 与 Reranker API
 
 ### 内容访问与许可标准
 
