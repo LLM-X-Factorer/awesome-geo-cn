@@ -137,6 +137,15 @@ GEO 关注内容在 AI 生成回答中被引用的情况；传统 SEO 关注内�
 - [豆包语音 API](https://www.volcengine.com/docs/6561/1096680) — 多模态能力
 - [豆包算法备案公示](https://www.doubao.com/legal/instructions) — 法定公开的算法说明
 
+**创作者规则**：
+
+- [抖音内容标识使用规范](https://95152.douyin.com/article/7151778480801102) — AI 生成、转载、营销推广等内容须添加对应自主声明标识，未标或错标可被限制传播（2023-09 首发，2026-05-11 修订生效）
+- [抖音关于升级 AI 内容标识功能的公告](https://95152.douyin.com/article/69831756697378034) — 创作者主动声明"内容由 AI 生成"，平台对未标识的疑似 AI 内容补充显式标识，并为所有 AI 内容写入隐式标识（2025-09-01 起试行）
+- [抖音关于 AI 生成内容管理的答疑公告](https://95152.douyin.com/article/15741764841795469) — 主动声明或含 AI 数字水印的内容不影响分发；未声明而被判定"疑似 AI"的内容可能影响分发（2025-12）
+- [抖音关于加强 AI 生成内容管理的公告](https://95152.douyin.com/article/98871770975704696) — 未主动声明的 AI 视频限制传播；重点整治类型含"利用 AI 搭建矩阵账号，批量生成低质内容"（2026-02）
+- [抖音关于持续规范信息来源标注的公告（第一期）](https://95152.douyin.com/article/27471774868064641) — 时事、公共政策、社会热点类内容须标注信息来源（2026-03）
+- [豆包搜索：站点权威度分级说明](https://www.volcengine.com/docs/87772/2518319) — 豆包搜索将信源分为非常权威 / 正常权威 / 一般权威 / 一般不权威四级，并列出"非常权威"站点范围（政府网站、央媒、985/211 高校官网等）（火山引擎，2026-06 首发，2026-08 更新）
+
 **独立搜索产品**：AI 抖音 / 头条搜索 / 悟空搜索 / 闪电搜索
 
 **关键数据**：
@@ -157,6 +166,14 @@ GEO 关注内容在 AI 生成回答中被引用的情况；传统 SEO 关注内�
 - [混元 OpenAI 兼容接口](https://cloud.tencent.com/document/product/1729) — SDK 与开发者文档
 - [混元 API Key 管理](https://cloud.tencent.com/document/product/1729/111008) — 开发者入口
 
+**创作者规则**：
+
+- [微信公众平台运营规范](https://mp.weixin.qq.com/mp/opshowpage?action=newoplaw) — 3.16 不当影响微信搜索及展示行为（关键词堆砌等）/ 3.27 非真人自动化创作行为（不得利用 AI、脚本、接口替代真人完成创作与发布）/ 3.28 套路化模板写作行为
+- [微信公众号和服务号推荐运营规范](https://mp.weixin.qq.com/cgi-bin/announce?action=getannouncement&key=11697600328G0Tbo&version=1&lang=zh_CN&platform=2) — 7.4 低价值 AIGC 内容：AIGC 生成主体占比显著高于人工且未声明 AI 辅助创作等
+- [关于进一步规范人工智能生成合成内容标识的公告](https://mp.weixin.qq.com/cgi-bin/announce?action=getannouncement&announce_id=117567151189fSNU&version=&lang=zh_CN) — 微信公众平台 AI 生成合成内容显式 / 隐式标识与发布者主动声明要求（2025-09-01）
+- [微信视频号运营规范](https://weixin.qq.com/cgi-bin/readtemplate?lang=zh_CN&t=weixin_agreement&s=video) — 6.4 生成式 AI 等生成合成的非真实音视频内容应显著标识
+- [为什么微信公众号文章搜不到｜搜一搜优化教程 02](https://mp.weixin.qq.com/s/FTNvYMAYvvgfg0qtH4QsGQ) — 微信搜一搜助手列出导致文章搜索封禁的 10 类因素（2023-01）
+
 **模型系列**：[Hy4 preview](https://www.stdaily.com/web/gdxw/2026-08/28/content_571433.html)（2026-08 开源，总参数 770B / 激活 49B）、[Hy3](https://www.tencent.com/zh-cn/articles/2202320.html)（2026-04 preview）、Tencent HY 2.0 Think / Instruct、Hunyuan-T1、Hunyuan-TurboS、Hunyuan-A13B、Hunyuan-Translation、Hunyuan-Vision
 
 **关键事实**：元宝打通微信公众号内容库，可直接调用微信公众号、视频号等内容资源（2025 年腾讯官方公告）
@@ -174,6 +191,10 @@ GEO 关注内容在 AI 生成回答中被引用的情况；传统 SEO 关注内�
 - [百炼插件广场](https://help.aliyun.com/zh/model-studio/plug-in-overview) — 含 `quark_search` 官方搜索插件
 - [AI 网关联网搜索策略](https://help.aliyun.com/zh/api-gateway/ai-gateway/user-guide/networked-search) — 官方文档明确"搜索引擎支持：夸克搜索引擎"
 - [Qwen GitHub](https://github.com/QwenLM) — 开源模型仓库
+
+**创作者规则**：
+
+- [神马站长平台](https://zhanzhang.sm.cn/) — 神马搜索站点收录与提交入口；服务条款 2.6 条规定平台发布内容可自动同步至夸克、UC、大鱼号等阿里业务平台
 
 **关键数据**：
 
@@ -200,6 +221,14 @@ GEO 关注内容在 AI 生成回答中被引用的情况；传统 SEO 关注内�
 - [文心大模型 5.0（ERNIE 5.0）](https://ernie.baidu.com/blog/posts/ernie5.0/) — 原生全模态、2.4 万亿参数，2026-01-22 正式版（官方博客）
 - [文心大模型 5.1（ERNIE 5.1）](https://ernie.baidu.com/blog/posts/ernie-5.1-0508-release/) — 官方称 LMArena Search Arena 1223 分（国产第一、全球第四），2026-05 发布（官方博客）
 
+**创作者规则**：
+
+- [AI 流量分析功能上线公告](https://ziyuan.baidu.com/wiki/3519) — 百度搜索资源平台提供站点内容被 AI 引用、曝光、点击的数据，分阶段开放（2026-09-15）
+- [百度搜索的工作原理](https://ziyuan.baidu.com/college/articleinfo?id=3541) — 抓取、索引、排序流程，排序维度含相关性、权威性、时效性（2023-12）
+- [百度搜索优质内容解读](https://ziyuan.baidu.com/college/articleinfo?id=3137) — 百度搜索对优质内容的定义与评估维度（2023-11）
+- [百度搜索违规低质页面问题说明](https://ziyuan.baidu.com/college/articleinfo?id=3528) — 影响索引与展现的低质、作弊问题类型（2023-08）
+- [百家号内容基础红线规则](https://ziyuan.baidu.com/college/articleinfo?id=3537) — 百家号内容审核红线与处罚机制（2023-10）
+
 **关键数据**：
 
 - 百度搜索份额从 86.8%（2021 年 11 月）下降到 55.9%（2024 年 5 月），数据来源：沙利文《2025 年中国 AI 搜索行业白皮书》
@@ -225,6 +254,14 @@ GEO 关注内容在 AI 生成回答中被引用的情况；传统 SEO 关注内�
 | [知乎](https://www.zhihu.com/) | 问答社区 | 中文 AI 引擎广泛引用，引用率数据见 [行业数据](#行业数据) |
 | [小红书](https://www.xiaohongshu.com/) | 图文 + 短视频 | 内容被百度索引后可间接影响百度系 AI |
 | [B 站](https://www.bilibili.com/) | 视频 + 专栏 | 字幕可被 AI 索引 |
+
+**平台规则**：
+
+- [知乎协议](https://www.zhihu.com/term/zhihu-terms) — 禁止抓取知乎内容用于大语言模型等研发或训练；知乎直答自动检索知乎社区、合作版权与互联网公开内容生成回答（2025-03-25 生效）
+- [B 站：关于 AI 生成内容有序标识的公告](https://www.bilibili.com/opus/1106496554576904197) — 投稿时在「创作声明」中声明使用人工智能合成技术，未声明的由平台添加标识（2025-08）
+- [B 站：关于整治 AI 技术滥用的公告](https://www.bilibili.com/opus/1065945930120822784) — 覆盖虚假信息、侵权、恶意行为、内容标识四类，未标注的 AI 内容限制传播或下架（2025-05）
+- [B 站：关于开展「清朗·整治AI应用乱象」专项公告](https://www.bilibili.com/opus/1202507670848798745) — AI 标识选项前置至投稿一级页面，漏标内容按补标 / 打回 / 下架阶梯处置（2026-05）
+- [B 站：关于自媒体信息来源标注规范的公告](https://www.bilibili.com/opus/1194416450727575574) — 引用新闻、媒体素材须在简介或画面标注来源与信源链接（2026-04）
 
 ### 独立大模型产品
 
