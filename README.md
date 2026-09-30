@@ -56,7 +56,7 @@ GEO 关注内容在 AI 生成回答中被引用的情况；传统 SEO 关注内�
 | [大语言模型检索增强生成优化技术研究综述](http://cjc.ict.ac.cn/online/onlinepaper/008_yl-2026227143149.pdf) | 中国科学院计算所《计算机学报》2026 | 中文一手 RAG 综述，覆盖 query 改写、检索增强、知识注入、引用生成等优化技术 |
 | [Self-Promotion in LLM Recommendations](https://sorelle.friedler.net/papers/LLMselfpromotion.pdf) | WebSci 2026（Dubash & Friedler） | LLM 推荐 AI 产品时存在自我推广偏差：供应商自家模型排名比基准表现应得位置平均高约 0.2 位 |
 | [LLMs are Biased Evaluators But Not Biased for Fact-Centric Contexts](https://aclanthology.org/2025.findings-acl.1369.pdf) | ACL 2025 Findings | RAG 场景下的偏差层级：事实性偏差 > 顺序偏差 > 自我偏好偏差 |
-| [C-SEO Bench: Does Conversational SEO Work?](https://openreview.net/forum?id=oTeixD3oZO) | NeurIPS 2025 | 多任务 / 多领域 / 多竞争密度严格控制下，多数 GEO 方法基本无效；多方同时使用 GEO 时效果互相抵消 |
+| [C-SEO Bench: Does Conversational SEO Work?](https://openreview.net/forum?id=oTeixD3oZO) | NeurIPS 2025 D&B | 多任务 / 多领域 / 多竞争密度严格控制下，多数 GEO 方法基本无效；多方同时使用 GEO 时效果互相抵消 |
 | [AutoGEO: What Generative Search Engines Like and How to Optimize Web Content Cooperatively](https://openreview.net/forum?id=K8EinVWtUB)（[GitHub](https://github.com/cxcscmu/AutoGEO)） | ICLR 2026 | 由前沿 LLM 自动抽取生成式引擎的内容偏好规则，并以 GRPO 训练小模型 AutoGEO_Mini 执行改写，提出"协作式"内容优化框架 |
 | [MAGEO: Multi-Agent GEO via Reusable Strategy Learning](https://github.com/Wu-beining/MAGEO) | ACL 2026 Findings | Multi-agent 协作学习 GEO 策略，把"经验"沉淀为可复用技能 |
 | [E-GEO: A Testbed for GEO in E-Commerce](https://arxiv.org/abs/2511.20867) | 2025 | 电商 GEO benchmark（v2：13,747 条 query，各配 10 个 Amazon listing），评测 15 种 rewriting heuristics |
@@ -72,10 +72,10 @@ GEO 关注内容在 AI 生成回答中被引用的情况；传统 SEO 关注内�
 | 论文 | 来源 | 核心发现 |
 |------|------|---------|
 | [What Evidence Do Language Models Find Convincing?（ConflictingQA）](https://arxiv.org/abs/2402.11782) | ACL 2024 | LLM 判断证据时高度依赖与查询的相关性，基本忽略是否含科学引用、是否中立语气等风格特征 |
-| [ConflictBank](https://arxiv.org/abs/2408.12076) | 2024 | 7.4M claim-evidence 对，研究 LLM 在外部内容与训练数据冲突时如何抉择 |
+| [ConflictBank](https://arxiv.org/abs/2408.12076) | NeurIPS 2024 D&B | 7.4M claim-evidence 对，研究 LLM 在外部内容与训练数据冲突时如何抉择 |
 | [GASLITE: SEO Attacks on Dense Retrieval](https://arxiv.org/abs/2412.20953) | CCS 2025 | 向 880 万段语料插入 10 段文本（≤0.0001%），6/9 个检索器对同概念未见查询的 appeared@10 超过 50% |
 | [Adversarial SEO for LLMs](https://arxiv.org/abs/2406.18382) | ICLR 2025 | 网页中的 prompt injection 可使 Bing 推荐目标产品的概率达对照产品的 2.5 倍 |
-| [Ranking Manipulation for Conversational Search](https://arxiv.org/abs/2406.03589) | 2024 | 通过 prompt injection 操纵对话式搜索排名 |
+| [Ranking Manipulation for Conversational Search](https://arxiv.org/abs/2406.03589) | EMNLP 2024 | 通过 prompt injection 操纵对话式搜索排名 |
 | [Dynamics of Adversarial Attacks on LLM-Based Search](https://arxiv.org/pdf/2501.00745) | ICML 2026 Workshop | 将 LLM 搜索中内容发布者间的攻击行为建模为无限重复囚徒困境 |
 | [GEO-Bench: Benchmarking Ranking Manipulation in GEO](https://arxiv.org/abs/2605.29107) | 2026 | GEO 攻防统一基准：黑盒内容改写在排名提升上可匹配 / 超过白盒梯度攻击，且文本更流畅、可同时规避关键词与困惑度检测 |
 | [FACTUM: Mechanistic Detection of Citation Hallucination in Long-Form RAG](https://arxiv.org/abs/2601.05866) | ECIR 2026 | 将"引用幻觉"建模为注意力与前馈通路的协调失败，4 种机制性打分法检测虚假引用，AUC 较 SOTA 最高 +37.5% |
@@ -123,7 +123,7 @@ GEO 关注内容在 AI 生成回答中被引用的情况；传统 SEO 关注内�
 **关键数据**：
 
 - 2026 年 6 月月活 3.82 亿（[QuestMobile《2026 年 AI 应用市场发展半年报》](https://www.questmobile.com.cn/research/report/2076954943839809537/)）
-- 2025 年 9 月底日均 token 调用量 30 万亿（艾瑞《2025 年中国 AI+互联网媒体行业研究报告》）
+- 截至 2026 年 6 月日均 tokens 调用量 180 万亿（2026 火山引擎 FORCE 大会，[IT之家](https://www.ithome.com/0/967/330.htm)）
 
 ### 腾讯系
 
@@ -138,7 +138,7 @@ GEO 关注内容在 AI 生成回答中被引用的情况；传统 SEO 关注内�
 - [混元 OpenAI 兼容接口](https://cloud.tencent.com/document/product/1729) — SDK 与开发者文档
 - [混元 API Key 管理](https://cloud.tencent.com/document/product/1729/111008) — 开发者入口
 
-**模型系列**：Tencent HY 2.0 Think / Instruct、Hunyuan-T1、Hunyuan-TurboS、Hunyuan-A13B、Hunyuan-Translation、Hunyuan-Vision
+**模型系列**：[Hy4 preview](https://www.stdaily.com/web/gdxw/2026-08/28/content_571433.html)（2026-08 开源，总参数 770B / 激活 49B）、[Hy3](https://www.tencent.com/zh-cn/articles/2202320.html)（2026-04 preview）、Tencent HY 2.0 Think / Instruct、Hunyuan-T1、Hunyuan-TurboS、Hunyuan-A13B、Hunyuan-Translation、Hunyuan-Vision
 
 **关键事实**：元宝打通微信公众号内容库，可直接调用微信公众号、视频号等内容资源（2025 年腾讯官方公告）
 
@@ -158,10 +158,10 @@ GEO 关注内容在 AI 生成回答中被引用的情况；传统 SEO 关注内�
 
 **关键数据**：
 
-- 2026 年 1 月千问 MAU 破 1 亿，DAU 3500-4000 万
+- 2026 年 6 月千问 App 月活 1.67 亿（[QuestMobile 半年报](https://www.questmobile.com.cn/research/report/2076954943839809537/)）
 - 2026 年 2 月千问（Qwen）C 端应用月活超 3 亿（阿里巴巴 2026 财年 Q3 财报）
-- Qwen 系列全球累计下载 6 亿次，衍生模型 17 万（2025 年 11 月阿里官方数据）
-- Qwen3-Max 基于 36T tokens 训练，覆盖 119 种语言
+- Qwen 系列全球累计下载超 30 亿次，衍生模型超 30 万个（阿里巴巴 2027 财年 Q1 财报，2026-08，[快科技](https://news.mydrivers.com/1/1145/1145195.htm)）
+- [Qwen3.8](https://www.stdaily.com/web/gdxw/2026-08/03/content_558298.html) 2026-08-03 发布，总参数 2.4 万亿，Qwen3.8-Max / Qwen3.8-27B 已开源
 
 ### 百度系
 
@@ -190,9 +190,9 @@ GEO 关注内容在 AI 生成回答中被引用的情况；传统 SEO 关注内�
 中文生成式 AI 服务受《互联网信息服务算法推荐管理规定》《互联网信息服务深度合成管理规定》《生成式人工智能服务管理暂行办法》约束，各厂商模型的网信算备号、备案状态以官方备案系统公示为准。
 
 - [互联网信息服务算法备案系统](https://beian.cac.gov.cn) — 网信办官方备案查询入口，可核验各厂商网信算备编号
-- [第十六批深度合成服务算法备案信息公告](https://www.cac.gov.cn/2026-03/12/c_1775050837565188.htm) — 网信办 2026-03-12 发布（深度合成算法按批次公示）
+- [第十八批深度合成服务算法备案信息公告](https://www.cac.gov.cn/2026-07/17/c_1786032856662750.htm) — 网信办 2026-07-17 发布（深度合成算法按批次公示）
 - [2025 年生成式人工智能服务已备案信息公告](https://www.cac.gov.cn/2026-01/09/c_1769688009588554.htm) — 截至 2025-12-31 累计 748 款服务备案、435 款应用登记（网信办）
-- [生成式人工智能服务已备案信息公告（2026 年 1–2 月）](https://www.cac.gov.cn/2026-03/17/c_1775482074695536.htm) — 截至 2026-02-28 累计 796 款服务备案、481 款应用登记（网信办）
+- [生成式人工智能服务已备案信息公告（2026 年 7–8 月）](https://www.cac.gov.cn/2026-09/14/c_1791136833136332.htm) — 截至 2026-08-31 累计 1112 款服务备案、731 款应用登记（网信办）
 - [人工智能拟人化互动服务管理暂行办法](https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm) — 五部门 2026-04-10 发布、2026-07-15 施行，规范持续性情感互动类 AI 服务
 
 ### 独立内容平台
@@ -211,8 +211,8 @@ GEO 关注内容在 AI 生成回答中被引用的情况；传统 SEO 关注内�
 
 | 产品 | 公司 | 备注 |
 |------|------|------|
-| [Kimi](https://www.kimi.com/) | 月之暗面 | 长上下文大模型，K 系列模型开源 |
-| [DeepSeek](https://www.deepseek.com/) | 深度求索 | 开源大模型（V / R 系列） |
+| [Kimi](https://www.kimi.com/) | 月之暗面 | 长上下文大模型，K 系列模型开源（[Kimi K3](https://www.news.cn/tech/20260717/01c04372f89a46e480206e1da2fb8e8c/c.html)，2026-07） |
+| [DeepSeek](https://www.deepseek.com/) | 深度求索 | 开源大模型（V / R 系列；[V4 预览版](https://news.sciencenet.cn/htmlnews/2026/4/563641.shtm)，2026-04） |
 
 ---
 
@@ -254,7 +254,7 @@ Allow: /
 robots.txt 之上正在形成的机器可读 AI 用途 / 许可声明机制。
 
 - [Cloudflare Content Signals Policy](https://blog.cloudflare.com/content-signals-policy/) — robots.txt 扩展，定义 search / ai-input / ai-train 三类用途信号（CC0，2025-09）
-- [Cloudflare Pay Per Crawl](https://blog.cloudflare.com/introducing-pay-per-crawl/) — 以 HTTP 402 向未付费 AI 爬虫返回定价；配套 AI Crawl Control 已正式可用
+- [Cloudflare Pay Per Crawl](https://blog.cloudflare.com/introducing-pay-per-crawl/) — 以 HTTP 402 向未付费 AI 爬虫返回定价；配套 AI Crawl Control 已正式可用。2026-07 起 AI 爬虫按 Search / Training / Agent 三类管理，2026-09-15 起启用新默认值（[公告](https://blog.cloudflare.com/content-independence-day-ai-options/)）
 - [RSL（Really Simple Licensing）1.0](https://rslstandard.org/rsl) — 机器可读内容许可标准，区分 ai-train / ai-input / ai-index / search 等用途（2025-12 发布）
 - [IETF AI Preferences（aipref）工作组](https://datatracker.ietf.org/wg/aipref/about/) — 标准轨草案：AI 用途偏好词汇 + HTTP `Content-Usage` 头附着机制（更新 RFC 9309）
 
@@ -269,7 +269,7 @@ robots.txt 之上正在形成的机器可读 AI 用途 / 许可声明机制。
 
 常用类型：`FAQPage` / `Person` / `Course` / `HowTo` / `Article`。
 
-参考：[Schema.org 官方文档](https://schema.org/) ｜ [版本发布记录](https://schema.org/docs/releases.html)（词汇逐版本变更，最新 v30.0，2026-03）
+参考：[Schema.org 官方文档](https://schema.org/) ｜ [版本发布记录](https://schema.org/docs/releases.html)（词汇逐版本变更，最新 v30.1，2026-09）
 
 ---
 
@@ -335,8 +335,8 @@ robots.txt 之上正在形成的机器可读 AI 用途 / 许可声明机制。
 | AI 搜索访客价值（按转化率）为传统自然搜索访客的 4.4 倍 | [Semrush 2025](https://www.semrush.com/blog/ai-search-seo-traffic-study/) |
 | Ahrefs 自家站点 AI 搜索访客转化率为传统自然搜索的 23 倍（单站案例） | [Ahrefs 2025](https://ahrefs.com/blog/ai-search-traffic-conversions-ahrefs/) |
 | 自设问题集测评中，AI 助手引用知乎频率 29.9%，内容社区中最高（B 站 7.6%） | [量子位智库 2025/05](https://www.qbitai.com/2025/05/285761.html) |
-| 中国生成式 AI 用户规模 6.02 亿、普及率 42.8%（截至 2025-12） | CNNIC 第 57 次报告 2026 |
-| AI 原生 App 月活 4.46 亿（豆包 3.45 / 千问 1.66 / DeepSeek 1.27 亿） | QuestMobile 2026 Q1 |
+| 中国生成式 AI 用户规模突破 7 亿、普及率超 50%（截至 2026 年上半年） | [CNNIC《生成式人工智能应用发展报告（2026）》](https://www.21jingji.com/article/20260929/herald/b55c0ac8c4012cc9f5320c6bf5156b67.html) |
+| AI 原生 App 月活 4.99 亿（2026-06：豆包 3.82 / 千问 1.67 / DeepSeek 1.29 亿） | [QuestMobile 2026 半年报](https://www.questmobile.com.cn/research/report/2076954943839809537/) |
 | YouTube 提及与 AI 可见度相关性最高（≈0.737），高于品牌网络提及（0.66–0.71） | Ahrefs 2025（75K 品牌） |
 | AI 搜索被引域名整体 Top：Reddit、YouTube、LinkedIn、Wikipedia、Forbes | Peec AI 2026（3000 万来源） |
 
@@ -350,12 +350,14 @@ robots.txt 之上正在形成的机器可读 AI 用途 / 许可声明机制。
 
 | 资源 | 机构 | 备注 |
 |------|------|------|
-| [SuperCLUE-AISearch](https://www.superclueai.com/) | SuperCLUE | 中文 AI 搜索专项基准测评，月度更新 |
+| [SuperCLUE-AISearch](https://www.superclueai.com/) | SuperCLUE | 中文 AI 搜索专项基准测评 |
 | [AI 搜索产品评估 2025](https://my.idc.com/getdoc.jsp?containerId=prCHC53702325) | IDC 中国 2025/07 | 百度 / 夸克 / 豆包 / DeepSeek 场景化对比，覆盖金融、法律、旅行规划等 |
 | [2025 中国生成式 AI 市场五大趋势](https://www.rolandberger.com/zh/Insights/Publications/2025中国生成式AI市场的五大趋势分享.html) | 罗兰贝格 2025 | AI 智能体、多模态、硬件融合等趋势分析 |
 | [2026 年 GEO 生成式引擎优化行业研究报告](https://pdf.dfcfw.com/pdf/H3_AP202602111819871548_1.pdf) | 艾瑞咨询 2026 | 中文 GEO 行业研究报告：定义、误区、案例、市场规模 |
 | [GEO White Paper 2026](https://cn.ceibs.edu/sites/portal.prod1.dpmgr.ceibs.edu/files/GEO_White_Paper_2026.pdf) | 中欧国际工商学院（CEIBS）2026 | 学术机构发布的中文 GEO 白皮书 |
+| [《生成式人工智能应用发展报告（2026）》](https://www.21jingji.com/article/20260929/herald/b55c0ac8c4012cc9f5320c6bf5156b67.html) | CNNIC 2026/09 | 截至 2026 年上半年生成式 AI 用户规模突破 7 亿、普及率超 50%；76.0% 用户用于智能问答 |
 | [第 57 次《中国互联网络发展状况统计报告》](https://www.news.cn/tech/20260302/66c4ab06b6f34f8d806b416b3acc9f0b/c.html) | CNNIC 2026 | 截至 2025-12 生成式 AI 用户规模 6.02 亿、普及率 42.8%（较 2024 年底增长 141.7%） |
+| [QuestMobile 2026 年 AI 应用市场发展半年报](https://www.questmobile.com.cn/research/report/2076954943839809537/) | QuestMobile 2026/07 | 2026-06 AI 原生 App 月活 4.99 亿（同比 +85.4%）；豆包 / 千问 / DeepSeek 月活 3.82 / 1.67 / 1.29 亿 |
 | [QuestMobile 2026 年一季度 AI 应用洞察](https://www.questmobile.com.cn/research/report/2046482337382842370/) | QuestMobile 2026/04 | AI 原生 App 月活 4.46 亿；豆包 / 千问 / DeepSeek 月活 3.45 / 1.66 / 1.27 亿，活跃率 33.5% / 17.1% / 21% |
 | [新榜智汇 AI 引用数据分析](https://www.newrank.cn/report/detail/433) | 新榜研究院 2026/03 | 1683.6 万联网信源拆解：元宝引用源约 10% 为微信公众号，豆包 TOP5 信源 3 个来自字节系 |
 | [QuestMobile AI 平台采信逻辑与信源偏好研究](https://news.qq.com/rain/a/20260526A03HGO00) | QuestMobile 2026/05 | 按行业拆解豆包 / 千问 / DeepSeek 信源结构（旅游"目的地发现类"携程引用率 58.3% 居首） |
