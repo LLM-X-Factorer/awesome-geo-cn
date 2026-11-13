@@ -485,6 +485,7 @@ robots.txt 之上正在形成的机器可读 AI 用途 / 许可声明机制。
 | 项目 | 说明 |
 |------|------|
 | [LLM-X-Factorer/cn-seo-geo-atlas](https://github.com/LLM-X-Factorer/cn-seo-geo-atlas) | 中文 SEO/GEO 技术调研图谱：14+1 张跨平台技术卡覆盖 8 维度，68 条可证伪元假说 |
+| [UnderleveledBuilder/awesome-seo-geo-skills](https://github.com/UnderleveledBuilder/awesome-seo-geo-skills) | SEO / GEO agent skill 精选清单（中英双语，81 个），单列「中文 AI 搜索」一节：豆包 / 元宝 / Kimi / DeepSeek / 千问；每条标注针对哪些 AI 平台，收录前跑脚本安全检查，每周自动刷新 |
 
 ---
 
