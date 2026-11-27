@@ -368,6 +368,7 @@ robots.txt 之上正在形成的机器可读 AI 用途 / 许可声明机制。
 | [Semrush AI Visibility Toolkit](https://www.semrush.com/kb/1493-ai-visibility-toolkit) | AI 搜索可见度分析（Semrush 已于 2026-04 被 Adobe 收购） | 付费 |
 | [Profound](https://www.tryprofound.com/) | AI 搜索引用监测 | 付费 |
 | [新榜智汇 Geowise](https://geo.newrank.cn/) | 中文 AI 搜索可见度与信源监测，覆盖豆包 / 元宝 / DeepSeek / 千问等 | 付费 |
+| [MentionsAPI](https://mentionsapi.com) | 通过一次 API 调用追踪 ChatGPT / Claude / Gemini / Perplexity 中的品牌提及与引用 | 付费（有免费额度） |
 
 ### 开源工具
 
